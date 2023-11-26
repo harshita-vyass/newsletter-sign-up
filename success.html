@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Success</title>
+    <script src="script.js"></script>
+  </head>
+  <body onload="show_email()">
+    <section class="success_box">
+      <main class="main">
+        <img src="./assets/images/icon-success.svg" width="50" height="50" />
+        <h1>Thanks for subscribing!</h1>
+
+        <p>
+          A confirmation email has been sent to <b id="success_email"></b>.
+          Please open it and click the button inside to confirm your
+          subscription.
+        </p>
+      </main>
+      <footer>
+        <button onclick="dismiss()" class="dismiss_btn">Dismiss message</button>
+      </footer>
+    </section>
+  </body>
+</html>
