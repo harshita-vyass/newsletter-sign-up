@@ -34,13 +34,13 @@ body {
   width: 50%;
 }
 
-main {
+.main {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-main h1 {
+.main h1 {
   font-size: 3rem;
 }
 
@@ -162,7 +162,7 @@ footer .dismiss_btn {
     padding: 1rem;
   }
 
-  main h1 {
+  .main h1 {
     font-size: 2rem;
   }
 
@@ -192,7 +192,7 @@ footer .dismiss_btn {
     padding: 1.5rem;
   }
 
-  main h1 {
+  .main h1 {
     font-size: 2.5rem;
   }
 
